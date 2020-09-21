@@ -1,0 +1,6 @@
+file:///C:/Skolarbete/Uppgift/Uppgift/index.html
+file:///C:/Skolarbete/Uppgift/Uppgift/seminar/alcoffee.html
+file:///C:/Skolarbete/Uppgift/Uppgift/seminar/llcoffee.html
+file:///C:/Skolarbete/Uppgift/Uppgift/seminar/gcoffee.html
+file:///C:/Skolarbete/Uppgift/Uppgift/registration/register.html
+file:///C:/Skolarbete/Uppgift/Uppgift/registration/check.html?
