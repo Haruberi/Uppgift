@@ -34,113 +34,43 @@
             </li>
 
             <li>
-                <a href="register.html" style="color:gray">Register</a>
+                <a href="registerhere.html" style="color:gray">Register page</a>
             </li>
         </ul>
 </div>
             <h1>Welcome</h1>
 
-            <h2>Choose Seminar: </h2>
+            <h2>Sign up to Continue.</h2>
             <br>
-                    <form>
-                        <input type="checkbox" id="coffee1" name="coffee1" value="Arvid Nordquist">
-                        <label for="coffee1">Arvid Coffee Seminar</label>
-                        <br>
-                        <input type="checkbox" id="coffee2" name="coffee2" value="Löfbergs Lila">
-                        <label for="coffee2">Lindas Coffee Seminar</label>
-                        <br>
-                        <input type="checkbox" id="coffee3" name="coffee3" value="Gevalia Coffee">
-                        <label for="coffee3">Sten Coffee Seminar</label>
-                    </form>
-                    
 
-            <h2>Choose date and time:</h2>
-            <p>Choose at least one time and date you would want to join on.</p>
-            <p>If you do not join more than one seminar, choose "None" in the following two Date options.</p>
-            <br>
+            <h2>Create a user </h2>
                     <form>
-                        <label>Date</label>
-                        <select name="date">
-                            <option value="firstDate">Arvid Coffee - October 1 (08:00-12:00)</option>
-                            <option value="secondDate">Arvid Coffee - October 10 (09:00-13:00)</option>
-                            <option value="thirdDate">Arvid Coffee - October 21 (08:00-12:00)</option>
-                            <option value="fourthDate">Lindas Coffee - October 2 (08:00-12:00)</option>
-                            <option value="fifthDate">Lindas Coffee - October 12 (09:00-13:00)</option>
-                            <option value="sixthDate">Lindas Coffee - October 22 (08:00-12:00)</option>
-                            <option value="seventhDate">Sten Coffee - October 3 (08:00-12:00)</option>
-                            <option value="eigthDate">Sten Coffee - October 13 (09:00-13:00)</option>
-                            <option value="ninthDate">Sten Coffee - October 23 (08:00-12:00)</option>
-                        </select>
-                    </form>
-
-                    <form>
-                        <label>Date</label>
-                        <select name="date">
-                            <option value="noDate">None</option>
-                            <option value="firstDate">Arvid Coffee - October 1 (08:00-12:00)</option>
-                            <option value="secondDate">Arvid Coffee - October 10 (09:00-13:00)</option>
-                            <option value="thirdDate">Arvid Coffee - October 21 (08:00-12:00)</option>
-                            <option value="fourthDate">Lindas Coffee - October 2 (08:00-12:00)</option>
-                            <option value="fifthDate">Lindas Coffee - October 12 (09:00-13:00)</option>
-                            <option value="sixthDate">Lindas Coffee - October 22 (08:00-12:00)</option>
-                            <option value="seventhDate">Sten Coffee - October 3 (08:00-12:00)</option>
-                            <option value="eigthDate">Sten Coffee - October 13 (09:00-13:00)</option>
-                            <option value="ninthDate">Sten Coffee - October 23 (08:00-12:00)</option>
-                            
-                        </select>
-                    </form>
-
-                    <form>
-                        <label>Date</label>
-                        <select name="date">
-                            <option value="noDate">None</option>
-                            <option value="firstDate">Arvid Coffee - October 1 (08:00-12:00)</option>
-                            <option value="secondDate">Arvid Coffee - October 10 (09:00-13:00)</option>
-                            <option value="thirdDate">Arvid Coffee - October 21 (08:00-12:00)</option>
-                            <option value="fourthDate">Lindas Coffee - October 2 (08:00-12:00)</option>
-                            <option value="fifthDate">Lindas Coffee - October 12 (09:00-13:00)</option>
-                            <option value="sixthDate">Lindas Coffee - October 22 (08:00-12:00)</option>
-                            <option value="seventhDate">Sten Coffee - October 3 (08:00-12:00)</option>
-                            <option value="eigthDate">Sten Coffee - October 13 (09:00-13:00)</option>
-                            <option value="ninthDate">Sten Coffee - October 23 (08:00-12:00)</option>
-                            
-                        </select>
-                    </form>
-
-            <h2>Enter your name:</h2>
-                    <form>
-                        <label for="fname">First name:</label>
+                        <label for="fname">Username: </label>
                         <br>
                         <input type="text" id="fname" name="fname">
                         <br>
-                        <label for="lname">Last name:</label>
+                        <br>
+                        <label for="lname">Password: </label>
                         <br>
                         <input type="text" id="lname" name="lname">
-                    </form>
-
-            <h2>Email field</h2>
-                    <form>
+                        <br>
+                        <br>
                         <label for="email">Enter your email:</label>
+                        <br>
                         <input type="email" id="email" name="email">
-                    </form>
+                        <br>
+                        <br>
+                            <label>Choose a profile: </label>
+                            <br>
+                            <select name="profile">
+                                <option value="chooseProfile">---Choose one---</option>
+                                <option value="studentProfile">Student</option>
+                                <option value="teahcerProfile">Teacher</option>
+                            </select>
+                            </form>
+                    <br>
+                    <br>
+                    <form action = "register.html"><button type="submit">Register now!</button></form>
 
-            <h2>Payment method:</h2>
-            <form>
-                    <input type="radio" id="card" name="payment" value="card">
-                    <label for="card">Card</label>
-                    <br>
-                    <input type="radio" id="swish" name="payment" value="swish">
-                    <label for="swish">Swish payment</label>
-                    <br>
-                    <input type="radio" id="apple pay" name="payment" value="apple pay">
-                    <label for="apple pay">Apple Pay</label>
-                    <br>
-                    <input type="radio" id="google pay" name="payment" value="google pay">
-                    <label for="google pay">Google Pay</label>
-            </form>
-            <br>
-
-            <form action = "check.html"><button type="submit">Register</button></form>
-            
     </body>
 </html>
