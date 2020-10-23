@@ -7,17 +7,20 @@
 #menu {
     float: right;
     }
+
     #menu li {
     list-style-type: none;
     float: center;
     padding-right: 20px;
     font-size: 20px;
     }
+
     #menu li a {
+    display: block;
     text-decoration: none;
     font-size: 20px;
     }
-    
+
     @media (max-width: 900px) {
     #menu {
     float: none;

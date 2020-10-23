@@ -1,0 +1,19 @@
+#title {
+    font-size: 25px;
+    color:brown;
+    text-align: center;
+}
+#content {
+    font-size: 20px;
+    text-align: left;
+    margin: 50px 20px 20px 20px;
+}
+#header {
+    background-color: brown;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-family: cursive;
+    font-size: 35px;
+}
+
