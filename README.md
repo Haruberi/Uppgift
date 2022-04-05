@@ -20,7 +20,8 @@ git clone https://github.com/Haruberi/Uppgift.git
 
 ## Usage
 
-[![cs](https://img.shields.io/badge/--239120?logo=csharp&logoColor=000)](https://docs.microsoft.com/en-us/dotnet/csharp/)
+[![css](https://img.shields.io/badge/--1572B6?logo=css3&logoColor=000)](https://en.wikipedia.org/wiki/CSS)
+[![html](https://img.shields.io/badge/--E34F26?logo=html5&logoColor=000)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![vscode](https://img.shields.io/badge/--5C2D91?logo=visualstudio&logoColor=000)](https://code.visualstudio.com/)
 [![windows](https://img.shields.io/badge/--0078D6?logo=windows&logoColor=000)](https://www.microsoft.com/sv-se/windows)
 
