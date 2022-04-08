@@ -20,10 +20,10 @@ git clone https://github.com/Haruberi/Uppgift.git
 
 ## Usage
 
-[![css](https://img.shields.io/badge/--1572B6?logo=css3&logoColor=000)](https://en.wikipedia.org/wiki/CSS)
-[![html](https://img.shields.io/badge/--E34F26?logo=html5&logoColor=000)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![vscode](https://img.shields.io/badge/--5C2D91?logo=visualstudio&logoColor=000)](https://code.visualstudio.com/)
-[![windows](https://img.shields.io/badge/--0078D6?logo=windows&logoColor=000)](https://www.microsoft.com/sv-se/windows)
+[![css](https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=000)](https://en.wikipedia.org/wiki/CSS)
+[![html](https://img.shields.io/badge/-HTML-E34F26?logo=html5&logoColor=000)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![vscode](https://img.shields.io/badge/-Visual%20Studio%20Code-5C2D91?logo=visualstudio&logoColor=000)](https://code.visualstudio.com/)
+[![windows](https://img.shields.io/badge/-Windows-0078D6?logo=windows&logoColor=000)](https://www.microsoft.com/sv-se/windows)
 
 ```
 Open live server
